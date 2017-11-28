@@ -20,9 +20,6 @@ body {
   overflow: hidden;
   /*padding: 1vw;*/
 }
-@media (max-width: 800px) {
-
-}
 
 @media (max-width: 600px) {
   .header{
@@ -51,6 +48,7 @@ body {
   .nav{
     width: 100vw;
     overflow: auto;
+    height: auto;
   }
   .link{
     width: 24vw;
@@ -70,8 +68,8 @@ body {
     margin-bottom: 0;
   }
   .middle-circle{
-    width: 60vw;
-    height: 60vw;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
     background-color: black;
     margin: 15vh 20vw 2vh;
@@ -111,6 +109,234 @@ body {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 601px) {
 
+  .header{
+    width: 100vw;
+    height: 6vh;
+  }
+
+  .logo{
+    width: 50vw;
+    margin-bottom: .5vh;
+  }
+
+  .logo-round{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    margin-right: 2vw;
+  }
+
+  .logo-square{
+    width: 15vw;
+    height: 5vw;
+    margin: 1.5vw 0;
+    float: left;
+    background-color: black;
+  }
+
+  .nav{
+    float: right;
+    margin-top: 1.5vw;
+    height: 5vw;
+  }
+
+  .link{
+    width: 8vw;
+    height: 5vw;
+    background-color: black;
+    float: left;
+  }
+
+  .link1, .link2, .link3 {
+    margin-right: 1vw;
+  }
+
+  .middle{
+    width: 100vw;
+    height: 24vh;
+  }
+
+  .middle-text {
+    width: 64vw;
+    margin-bottom: 0;
+    float: left;
+  }
+
+  .middle-circle{
+    float: left;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: black;
+    margin: 1vw 0vw 0vw 3vw;
+  }
+
+  .bottom-images {
+    width: 100vw;
+    height: 10vh
+  }
+
+  .bottom-image {
+    width: 31vw;
+    height: 10vh;
+    float: left;
+    background-color: black;
+  }
+
+  .bottom-image1, .bottom-image2 {
+    margin-right: 3vw;
+  }
+
+  .bottom-text-only {
+      width: 47vw;
+      float: left;
+      margin-left: 2vw;
+      margin-top: 3vh;
+  }
+
+  .bottom-text-images {
+      width: 47vw;
+      float: left;
+      margin-left: 2vw;
+      margin-top: 3vh;
+  }
+
+  .bottom-text-images p {
+    width: 40vw;
+    margin-top: 2vh;
+    margin-left: 6vw;
+    margin-bottom: 2.8vh;
+  }
+
+  .small-image {
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    background-color: black;
+    margin-right: 1vw;
+  }
+
+  .bottom-text-images h3 {
+    float: left;
+    margin: 0;
+    width: 35vw;
+  }
+
+  @media (min-width: 801px) {
+
+    .header{
+      width: 100vw;
+      height: 6vh;
+    }
+
+    .logo{
+      width: 50vw;
+      margin-bottom: .5vh;
+    }
+
+    .logo-round{
+      width: 8vw;
+      height: 8vw;
+      border-radius: 50%;
+      background-color: black;
+      float: left;
+      margin-right: 2vw;
+    }
+
+    .logo-square{
+      width: 15vw;
+      height: 5vw;
+      margin: 1.5vw 0;
+      float: left;
+      background-color: black;
+    }
+
+    .nav{
+      float: right;
+      margin-top: 1.5vw;
+      height: 5vw;
+    }
+
+    .link{
+      width: 8vw;
+      height: 5vw;
+      background-color: black;
+      float: left;
+    }
+
+    .link1, .link2, .link3 {
+      margin-right: 1vw;
+    }
+
+    .middle{
+      width: 100vw;
+      height: 24vh;
+    }
+
+    .middle-text {
+      width: 64vw;
+      margin-bottom: 0;
+      float: left;
+    }
+
+    .middle-circle{
+      float: left;
+      width: 30vw;
+      height: 30vw;
+      border-radius: 50%;
+      background-color: black;
+      margin: 1vw 0vw 0vw 3vw;
+    }
+
+    .bottom-images {
+      width: 31vw;
+      height: 10vh;
+      float: left;
+    }
+
+    .bottom-image {
+      width: 31vw;
+      height: 10vh;
+      background-color: black;
+    }
+
+
+    .bottom-text-only {
+      width: 31vw;
+      float: left;
+      margin-left: 2vw;
+      margin-top: 3vh;
+    }
+
+    .bottom-text-images {
+      width: 31vw;
+      float: left;
+      margin-left: 2vw;
+      margin-top: 3vh;
+    }
+
+    .bottom-text-images p {
+      width: 28vw;
+      margin-top: 2vh;
+      margin-left: 6vw;
+      margin-bottom: 2.8vh;
+    }
+
+    .small-image {
+      width: 5vw;
+      height: 5vw;
+      float: left;
+      background-color: black;
+      margin-right: 1vw;
+    }
+
+    .bottom-text-images h3 {
+      float: left;
+      margin: 0;
+      width: 35vw;
+    }
 }
